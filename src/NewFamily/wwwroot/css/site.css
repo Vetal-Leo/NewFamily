@@ -25,20 +25,50 @@ textarea {
 
 /* buttons and links extension to use brackets: [ click me ] */
 .btn-bracketed::before {
-    display:inline-block;
+    display: inline-block;
     content: "[";
     padding-right: 0.5em;
 }
+
 .btn-bracketed::after {
-    display:inline-block;
+    display: inline-block;
     content: "]";
     padding-left: 0.5em;
 }
 
 /* Hide/rearrange for smaller screens */
 @media screen and (max-width: 767px) {
-  /* Hide captions */
-  .carousel-caption {
-    display: none
-  }
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.navbar-font {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Background color and frame navigation menu */
+.navbar-default {
+    background-color: #FF9933;
+    border-color: #FF9933;
+    font-weight: bold;
+}
+    /* The color of the text that contains the name of the website or brand */
+    .navbar-default .navbar-brand {
+        color: #b22222;
+    }
+
+        .navbar-default .navbar-brand:hover,
+        .navbar-default .navbar-brand:focus {
+            color: #500000;
+        }
+    /* Color of navigation menu items */
+    .navbar-default .navbar-nav > li > a {
+        color: #8b0000;
+    }
+
+.letter {
+    color: #a52a2a;
+    font-size: 150%;
 }
