@@ -45,7 +45,7 @@ textarea {
 }
 
 .navbar-font {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 /* Background color and frame navigation menu */
@@ -56,19 +56,14 @@ textarea {
 }
     /* The color of the text that contains the name of the website or brand */
     .navbar-default .navbar-brand {
-        color: #b22222;
+        color: #500000;
     }
 
         .navbar-default .navbar-brand:hover,
         .navbar-default .navbar-brand:focus {
-            color: #500000;
+            color: #b22222;
         }
     /* Color of navigation menu items */
     .navbar-default .navbar-nav > li > a {
         color: #8b0000;
     }
-
-.letter {
-    color: #a52a2a;
-    font-size: 150%;
-}
