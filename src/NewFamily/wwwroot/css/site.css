@@ -1,5 +1,5 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 65px;
     padding-bottom: 20px;
 }
 
@@ -17,11 +17,6 @@ textarea {
     max-width: 280px;
 }
 
-/* Carousel */
-.carousel-caption p {
-    font-size: 20px;
-    line-height: 1.4;
-}
 
 /* buttons and links extension to use brackets: [ click me ] */
 .btn-bracketed::before {
@@ -36,13 +31,6 @@ textarea {
     padding-left: 0.5em;
 }
 
-/* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
-    /* Hide captions */
-    .carousel-caption {
-        display: none;
-    }
-}
 
 .navbar-font {
    font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -67,3 +55,12 @@ textarea {
     .navbar-default .navbar-nav > li > a {
         color: #8b0000;
     }
+    .btn-standard.btn {
+        color: #8b0000;
+        background: #FFDAB9;
+    }
+    .btn-standard.btn:hover {
+        background: #FFDAB0;
+        color: #500000;
+    }
+   
