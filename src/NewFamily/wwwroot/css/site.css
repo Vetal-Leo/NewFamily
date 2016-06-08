@@ -33,7 +33,7 @@ textarea {
 
 
 .navbar-font {
-   font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 /* Background color and frame navigation menu */
@@ -55,12 +55,41 @@ textarea {
     .navbar-default .navbar-nav > li > a {
         color: #8b0000;
     }
-    .btn-standard.btn {
-        color: #8b0000;
-        background: #FFDAB9;
-    }
+
+.btn-standard.btn {
+    color: #8b0000;
+    background: #FFDAB9;
+}
+
     .btn-standard.btn:hover {
         background: #FFDAB0;
         color: #500000;
     }
-   
+
+.btn-registration.btn {
+    background: #8b0000;
+    color: #FFDAB9;
+    width: 280px;
+    margin-right: 60px;
+}
+
+    .btn-registration.btn:hover {
+        background: #6b1a1a;
+        color: #FFDAB9;
+    }
+/*Text*/
+.text-classic {
+    color: #b22222;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-oblique {
+    font-style: oblique;
+}
+
+.form-control.form-control-small {
+    height: 29px;
+}
