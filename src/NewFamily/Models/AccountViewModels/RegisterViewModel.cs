@@ -17,7 +17,7 @@ namespace NewFamily.Models.AccountViewModels
 
         [Required]
         [StringLength(100, ErrorMessage = "В {0} должно быть не менее {2} и не более {1} символов.", MinimumLength = 6)]
-        [RegularExpression(@"(?=.*\W)?(?=.*\d)", ErrorMessage = "Пароль должен иметь по крайней мере один не алфавитно-цифровой символ.")]
+        [RegularExpression(@"^.*(?=.{6,100})(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=<>]).*$", ErrorMessage = "Пароль должен иметь по крайней мере один не алфавитно-цифровой символ.")]
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
         public string Password { get; set; }
