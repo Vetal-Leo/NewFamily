@@ -77,6 +77,18 @@ textarea {
         background: #6b1a1a;
         color: #FFDAB9;
     }
+
+.btn-link.btn-logoff:default {
+    margin-right: 8px;
+    outline: none;
+    color: #FFDAB9;
+}
+
+.btn-link.btn-logoff:hover {
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
 /*Text*/
 .text-classic {
     color: #b22222;
