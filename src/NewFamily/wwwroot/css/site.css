@@ -56,6 +56,7 @@ textarea {
         color: #8b0000;
     }
 
+/*Class btn*/
 .btn-standard.btn {
     color: #8b0000;
     background: #FFDAB9;
@@ -89,6 +90,11 @@ textarea {
     outline: none;
     color: black;
 }
+
+.btn-link.btn-logoff:focus {
+    text-decoration: none;
+}
+
 /*Text*/
 .text-classic {
     color: #b22222;
