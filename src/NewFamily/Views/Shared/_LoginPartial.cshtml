@@ -10,7 +10,7 @@
     <form asp-controller="Account" asp-action="LogOff" method="post" id="logoutForm">
         <ul class="nav navbar-nav navbar-right">
             <li>
-                <a asp-controller="Manage" asp-action="Index" title="Manage">@UserManager.GetUserName(User)</a>
+                <a asp-controller="Manage" asp-action="Index" title="Моя страница">@UserManager.GetUserName(User)</a>
             </li>
             <li>
                <button type="submit" class="btn btn-link navbar-btn navbar-link btn-logoff">Выйти</button>
