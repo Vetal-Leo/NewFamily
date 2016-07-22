@@ -31,7 +31,6 @@ textarea {
     padding-left: 0.5em;
 }
 
-
 .navbar-font {
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
@@ -55,6 +54,7 @@ textarea {
     .navbar-default .navbar-nav > li > a {
         color: #8b0000;
     }
+
 
 /*Class btn*/
 .btn-standard.btn {
