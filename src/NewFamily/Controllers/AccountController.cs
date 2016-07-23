@@ -76,7 +76,7 @@ namespace NewFamily.Controllers
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    ModelState.AddModelError(string.Empty, "Неудачная попытка входа.");
                     return View(model);
                 }
             }

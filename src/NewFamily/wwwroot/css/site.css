@@ -18,7 +18,7 @@ textarea {
 }
 
 
-/* buttons and links extension to use brackets: [ click me ] */
+/* Buttons and links extension to use brackets: [ click me ] */
 .btn-bracketed::before {
     display: inline-block;
     content: "[";
@@ -56,7 +56,7 @@ textarea {
     }
 
 
-/*Class btn*/
+/* Class btn*/
 .btn-standard.btn {
     color: #8b0000;
     background: #FFDAB9;
@@ -95,7 +95,11 @@ textarea {
     text-decoration: none;
 }
 
-/*Text*/
+.btn-login {
+    width: 170px;
+}
+
+/* Class text*/
 .text-classic {
     color: #b22222;
 }
@@ -107,7 +111,10 @@ textarea {
 .text-oblique {
     font-style: oblique;
 }
-
+.text-validation {
+    color: red;
+    font-weight: 700;
+}
 .form-control.form-control-small {
     height: 29px;
 }
