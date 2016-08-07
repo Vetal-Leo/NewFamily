@@ -60,6 +60,7 @@ textarea {
 .btn-standard.btn {
     color: #8b0000;
     background: #FFDAB9;
+    margin-top: 8px;
 }
 
     .btn-standard.btn:hover {

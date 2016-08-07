@@ -43,13 +43,36 @@
             @await Html.PartialAsync("_LoginPartial")
         </div>
     </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer class="text-center">
-            <p>NewFamily &copy; 2016</p>
-        </footer>
-    </div>
+<div class="container body-content">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <div class="row">
+            <div class="col-md-9">
+                @RenderBody()
+            </div>
+            <div class="col-md-3">
+                <a class="btn btn-lg btn-default btn-block btn-standard" href="/Manage/Index">Моя страница</a>
+                <a class="btn btn-lg btn-default btn-block btn-standard" href="https://www.google.ru/">Мой клуб</a>
+                <a class="btn btn-lg btn-default btn-block btn-standard">Комната свиданий</a>
+                <a class="btn btn-lg btn-default btn-block btn-standard" href="https://www.google.ru/">Видиозвонки</a>
+                <a class="btn btn-lg btn-default btn-block btn-standard">Сообщения</a>
+                <a class="btn btn-lg btn-default btn-block btn-standard">Мои Фотографии</a>
+                <a class="btn btn-lg btn-default btn-block btn-standard">Мои Видио</a>
+                <a class="btn btn-lg btn-default btn-block btn-standard">Кинозал</a>
+                <a class="btn btn-lg btn-default btn-block btn-standard">Муззал</a>
+                <a class="btn btn-lg btn-default btn-block btn-standard">Игровая</a>
+            </div>
+        </div>
+    }
+    else
+    {
+     @RenderBody()
+    }
+    <hr/>
+    <footer class="text-center">
+        <p>NewFamily &copy; 2016</p>
+    </footer>
+</div>
     <environment names="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
