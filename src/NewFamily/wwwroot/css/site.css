@@ -121,18 +121,18 @@ textarea {
     .a-advertising {
     color: #FEBA77;
     font-weight: 900;
-    font-size: 21px;
+    font-size: 17px;
 }
     .a-advertising:hover {
     color: #FEA348;
     font-weight: 900;
-    font-size: 21px;
+    font-size: 17px;
     text-decoration: none;
 }
      .a-advertising:focus {
     color: #FEA348;
     font-weight: 900;
-    font-size: 21px;
+    font-size: 17px;
     text-decoration: none;
 }
 /* Class text*/
