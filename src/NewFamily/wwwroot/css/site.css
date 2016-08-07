@@ -1,5 +1,5 @@
 ﻿body {
-    padding-top: 65px;
+    padding-top: 62px;
     padding-bottom: 20px;
 }
 
@@ -61,6 +61,7 @@ textarea {
     color: #8b0000;
     background: #FFDAB9;
     margin-top: 8px;
+    font-size: 16px;
 }
 
     .btn-standard.btn:hover {
@@ -99,7 +100,24 @@ textarea {
 .btn-login {
     width: 170px;
 }
+/* Class link*/
+.a-editpage {
+    color: #B1B1AF;
+    font-size: 16px;
+    text-decoration: none;
+}
 
+    .a-editpage:hover {
+        color: gray;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .a-editpage:focus {
+        color: gray;
+        font-size: 16px;
+        text-decoration: none;
+    }
 /* Class text*/
 .text-classic {
     color: #b22222;
@@ -112,10 +130,12 @@ textarea {
 .text-oblique {
     font-style: oblique;
 }
+
 .text-validation {
     color: red;
     font-weight: 700;
 }
+
 .form-control.form-control-small {
     height: 29px;
 }
