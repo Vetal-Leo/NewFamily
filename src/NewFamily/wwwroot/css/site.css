@@ -118,6 +118,23 @@ textarea {
         font-size: 16px;
         text-decoration: none;
     }
+    .a-advertising {
+    color: #FEBA77;
+    font-weight: 900;
+    font-size: 21px;
+}
+    .a-advertising:hover {
+    color: #FEA348;
+    font-weight: 900;
+    font-size: 21px;
+    text-decoration: none;
+}
+     .a-advertising:focus {
+    color: #FEA348;
+    font-weight: 900;
+    font-size: 21px;
+    text-decoration: none;
+}
 /* Class text*/
 .text-classic {
     color: #b22222;
