@@ -118,23 +118,63 @@ textarea {
         font-size: 16px;
         text-decoration: none;
     }
-    .a-advertising {
+
+.a-detail {
+    text-decoration: none;
+    color: #FEBA77;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+    .a-detail:hover {
+        text-decoration: none;
+        color: #FF9933;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+.a-advertising {
     color: #FEBA77;
     font-weight: 900;
     font-size: 17px;
 }
+
     .a-advertising:hover {
-    color: #FEA348;
-    font-weight: 900;
-    font-size: 17px;
-    text-decoration: none;
+        color: #FEA348;
+        font-weight: 900;
+        font-size: 17px;
+        text-decoration: none;
+    }
+
+    .a-advertising:focus {
+        color: #FEA348;
+        font-weight: 900;
+        font-size: 17px;
+        text-decoration: none;
+    }
+
+.div-advertising {
+    text-align: center;
+    background: #FFF4EB;
+    width: 215px;
+    height: 27px;
 }
-     .a-advertising:focus {
-    color: #FEA348;
-    font-weight: 900;
-    font-size: 17px;
-    text-decoration: none;
-}
+
+    .div-advertising:hover {
+        text-align: center;
+        background: #FEE3CD;
+        width: 215px;
+        height: 27px;
+    }
+
+    .div-advertising:focus {
+        text-align: center;
+        background: #FEE3CD;
+        width: 215px;
+        height: 27px;
+    }
 /* Class text*/
 .text-classic {
     color: #b22222;
@@ -155,4 +195,20 @@ textarea {
 
 .form-control.form-control-small {
     height: 29px;
+}
+
+.size-15 {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+    .size-15:hover {
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+/* Class hr*/
+.hr-headline > hr {
+    border-color: #FFE9D7;
+    border-width: 2px;
 }
