@@ -1,4 +1,5 @@
-﻿body {
+﻿
+body {
     padding-top: 62px;
     padding-bottom: 20px;
     background: #FFE6CC;
@@ -42,19 +43,19 @@ textarea {
     border-color: #FF9933;
     font-weight: bold;
 }
-    /* The color of the text that contains the name of the website or brand */
-    .navbar-default .navbar-brand {
-        color: #500000;
-    }
+/* The color of the text that contains the name of the website or brand */
+.navbar-default .navbar-brand {
+    color: #500000;
+}
 
-        .navbar-default .navbar-brand:hover,
-        .navbar-default .navbar-brand:focus {
-            color: #b22222;
-        }
-    /* Color of navigation menu items */
-    .navbar-default .navbar-nav > li > a {
-        color: #8b0000;
-    }
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #b22222;
+}
+/* Color of navigation menu items */
+.navbar-default .navbar-nav > li > a {
+    color: #8b0000;
+}
 
 /* Class glyphicons*/
 .glyphicons-519-option-horizontal {
@@ -64,12 +65,12 @@ textarea {
     height: 6px;
 }
 
-    .glyphicons-519-option-horizontal:hover {
-        background: url(../glyphicons/glyphicons-519-option-horizontal-war.png);
-        cursor: pointer;
-        width: 22px;
-        height: 6px;
-    }
+.glyphicons-519-option-horizontal:hover {
+    background: url(../glyphicons/glyphicons-519-option-horizontal-war.png);
+    cursor: pointer;
+    width: 22px;
+    height: 6px;
+}
 
 /* Class btn*/
 .btn-standard.btn {
@@ -79,10 +80,10 @@ textarea {
     font-size: 16px;
 }
 
-    .btn-standard.btn:hover {
-        color: white;
-        background: #B7511F;
-    }
+.btn-standard.btn:hover {
+    color: white;
+    background: #B7511F;
+}
 
 .btn-registration.btn {
     background: #8b0000;
@@ -91,10 +92,10 @@ textarea {
     margin-right: 60px;
 }
 
-    .btn-registration.btn:hover {
-        background: #6b1a1a;
-        color: #FFDAB9;
-    }
+.btn-registration.btn:hover {
+    background: #6b1a1a;
+    color: #FFDAB9;
+}
 
 .btn-link.btn-logoff:default {
     margin-right: 8px;
@@ -116,6 +117,11 @@ textarea {
     width: 170px;
 }
 
+.br0 {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+}
+
 /* Class link*/
 .editpage {
     color: #B1B1AF;
@@ -124,17 +130,17 @@ textarea {
     text-decoration: none;
 }
 
-    .editpage:hover {
-        color: gray;
-        font-size: 16px;
-        text-decoration: none;
-    }
+.editpage:hover {
+    color: gray;
+    font-size: 16px;
+    text-decoration: none;
+}
 
-    .editpage:focus {
-        color: gray;
-        font-size: 16px;
-        text-decoration: none;
-    }
+.editpage:focus {
+    color: gray;
+    font-size: 16px;
+    text-decoration: none;
+}
 
 .a-advertising {
     color: #FEA348;
@@ -142,19 +148,19 @@ textarea {
     font-size: 17px;
 }
 
-    .a-advertising:hover {
-        color: #FEA348;
-        font-weight: 900;
-        font-size: 17px;
-        text-decoration: none;
-    }
+.a-advertising:hover {
+    color: #FEA348;
+    font-weight: 900;
+    font-size: 17px;
+    text-decoration: none;
+}
 
-    .a-advertising:focus {
-        color: #FEA348;
-        font-weight: 900;
-        font-size: 17px;
-        text-decoration: none;
-    }
+.a-advertising:focus {
+    color: #FEA348;
+    font-weight: 900;
+    font-size: 17px;
+    text-decoration: none;
+}
 
 .div-advertising {
     text-align: center;
@@ -163,19 +169,19 @@ textarea {
     height: 27px;
 }
 
-    .div-advertising:hover {
-        text-align: center;
-        background: #FAFAFA;
-        width: 215px;
-        height: 27px;
-    }
+.div-advertising:hover {
+    text-align: center;
+    background: #FAFAFA;
+    width: 215px;
+    height: 27px;
+}
 
-    .div-advertising:focus {
-        text-align: center;
-        background: #FAFAFA;
-        width: 215px;
-        height: 27px;
-    }
+.div-advertising:focus {
+    text-align: center;
+    background: #FAFAFA;
+    width: 215px;
+    height: 27px;
+}
 /* Class text*/
 .text-classic {
     color: #b22222;
@@ -203,10 +209,10 @@ textarea {
     text-decoration: none;
 }
 
-    .size-15:hover {
-        font-size: 15px;
-        text-decoration: none;
-    }
+.size-15:hover {
+    font-size: 15px;
+    text-decoration: none;
+}
 
 /* Class hr*/
 hr {
@@ -230,3 +236,5 @@ div.information {
     -moz-border-radius: 6px;
     padding: 12px;
 }
+
+/* ReSharper restore CssBrowserCompatibility */
